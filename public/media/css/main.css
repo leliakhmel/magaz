@@ -1,0 +1,7 @@
+body {
+	//background:url(../img/kart.jpg);
+	background-size:100%;
+	//background-size:contain;
+	background:white;
+	color:blue;
+}
