@@ -1,4 +1,4 @@
-# Laravel PHP Framework
+# Интернет магазин
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
@@ -22,6 +22,27 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+## Лицензия
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+По всем вопросам обращаться ко мне
+
+# Установка
+
+- cd domains
+- Клонируем проект git clone http://github.com/leliakhmel/magaz.git
+- Открыть консоль OpenServer cd laravel
+- composer install библиотеки
+- Создать MySQL-базу с именем laravel
+- Создать файл env (по примеру .env.example)
+- В этом файле подключение к базе laravel
+- php artisan migrate (выполнение миграции)
+- php artisan db:seed (добавляет первоначальные данные)
+
+# Технологии
+
+- в проекте использует php
+- MySQL
+- php 5.6.4
+- laravel/framework 5.3
+- intervention/image 2.3
+

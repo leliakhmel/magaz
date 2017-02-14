@@ -23,7 +23,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media/img/kart.jpg" alt="kart.jpg">
+      <img src="media/img/mac.jpg" alt="mac.jpg">
       <div class="carousel-caption">
         
       </div>

@@ -17,8 +17,24 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/', 'BaseController@getIndex');    //всегда последний с id
+Route::post('home', 'HomeController@postindex');
 
+
+
+
+Route::get('/home', 'HomeController@getIndex'); 
+Route::get('/home/delete/{id}', 'HomeController@getDelete'); 
+
+Route::get('/home/edit/{id}', 'HomeController@getEdit'); 
+Route::post('/home/edit/{id}', 'HomeController@postEdit'); 
+
+
+
+
+
+
+Route::get('/', 'BaseController@getIndex');    //всегда последний с id
+Route::get('/catalog', 'CatalogController@getIndex'); 
 Route::get('/{id}', 'BaseController@getStatic');
 
 
